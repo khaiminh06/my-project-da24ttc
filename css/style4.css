@@ -1,0 +1,54 @@
+
+
+/* Nền toàn trang */
+body {
+    background-color: #fff0f5; /* hồng pastel nhẹ */
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    width: 60%;
+    margin: 50px auto;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fcf5fc; 
+    color: #5a3d5a;
+    box-shadow: 0 4px 8px rgba(200, 150, 200, 0.2);
+}
+
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #a64ca6; 
+}
+
+
+th {
+    background-color: #f5e6f7; 
+    padding: 10px;
+}
+
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #f0d6f5; 
+}
+
+
+tr:hover {
+    background-color: #fff5f8;
+}
+
+
+#kq {
+    font-weight: bold;
+    color: #a64ca6;
+}
