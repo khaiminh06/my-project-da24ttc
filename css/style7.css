@@ -1,0 +1,102 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffe4ec, #ffc1d6);
+}
+
+/* CONTAINER */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff0f5;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.3);
+}
+
+/* TITLE */
+h2 {
+    text-align: center;
+    color: #d63384;
+    margin-bottom: 20px;
+}
+
+/* ACTION BUTTONS */
+.actions {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.actions button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    background: #ff69b4;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.actions button:hover {
+    background: #ff1493;
+}
+
+/* ROW */
+.row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(255, 105, 180, 0.2);
+}
+
+/* INPUT */
+.row input[type="number"] {
+    width: 100px;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid #ffc0cb;
+    outline: none;
+}
+
+/* RADIO LABEL */
+.row label {
+    font-size: 14px;
+    color: #d63384;
+}
+
+/* REMOVE BUTTON */
+.remove-btn {
+    margin-left: auto;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    background: #ff4d6d;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.remove-btn:hover {
+    background: #c9184a;
+}
+
+/* RESULT */
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ff1493;
+    font-weight: bold;
+}
