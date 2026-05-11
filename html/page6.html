@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html>
 <head>
   <title>Bố chồng chiếm hủ tôi</title>
@@ -18,4 +19,66 @@
     });
   </script>
 </body>
+=======
+<html lang = "vi">
+    <head>
+        <title>Bố chồng chiếm hủ tôi</title>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" href = "../css/style6.css">
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "product-list" id = "product-list">
+
+            </div>
+        </div>
+
+        <script>
+            const productItem = document.createElement("div");
+
+            productItem.setAttribute("class", "product-item");
+
+            const productImage = document.createElement("div");
+
+            productImage.setAttribute("class", "product-image");
+
+            const myImage = document.createElement("img");
+            myImage.setAttribute("src", "../html/avatar.jpg");
+            myImage.setAttribute("alt", "Mingxingiu");
+
+            productImage.appendChild(myImage);
+
+            const productInfo = document.createElement("div");
+
+            productInfo.setAttribute("class", "product-info");
+
+            const productName = document.createElement("p");
+            const productNameText = document.createTextNode("Mingxingiu");
+            productName.appendChild(productNameText);
+
+            productInfo.appendChild(productName);
+           // Tạo giá
+         const productPrice = document.createElement("p");
+         const productPriceText = document.createTextNode("VÔ GIÁ");
+         productPrice.appendChild(productPriceText);
+
+        // Gắn giá vào productInfo
+         productInfo.appendChild(productPrice);
+
+         const productLink = document.createElement("a");
+         const productLinkText = document.createTextNode("Xem chi tiết");
+         productLink.setAttribute("href", "product-detall.html");
+         productLink.appendChild(productLinkText);
+
+         productInfo.appendChild(productLink);
+
+        // Gắn các phần vào productItem
+         productItem.appendChild(productImage);
+         productItem.appendChild(productInfo);
+
+        // Hiển thị ra HTML
+         document.getElementById("product-list").appendChild(productItem); 
+                 </script>
+    </body>
+>>>>>>> b62a77b4666c584064df036d1859949d898221fb
 </html>

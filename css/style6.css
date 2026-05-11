@@ -1,7 +1,11 @@
 /* 1. Thiết lập chung cho toàn bộ trang */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
     background: linear-gradient(135deg, #ffe0f0 0%, #ffb3d9 100%);
+=======
+    background-color: #f4f4f9;
+>>>>>>> b62a77b4666c584064df036d1859949d898221fb
     display: flex;
     justify-content: center;
     padding: 50px;
@@ -19,6 +23,7 @@ body {
 
 /* 3. Khung chứa 1 sản phẩm (product-item) */
 .product-item {
+<<<<<<< HEAD
     background-color: #fff0f8;
     border-radius: 15px;
     overflow: hidden;
@@ -26,13 +31,26 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
     border: 2px solid #ff69b4;
+=======
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #eee;
+>>>>>>> b62a77b4666c584064df036d1859949d898221fb
 }
 
 /* Hiệu ứng khi di chuột vào sản phẩm */
 .product-item:hover {
     transform: translateY(-10px);
+<<<<<<< HEAD
     box-shadow: 0 10px 25px rgba(255, 105, 180, 0.4);
     border-color: #ff1493;
+=======
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+>>>>>>> b62a77b4666c584064df036d1859949d898221fb
 }
 
 /* 4. Phần hình ảnh */
@@ -61,7 +79,11 @@ body {
 /* Giá sản phẩm */
 .product-info p:last-child {
     font-size: 1.1rem;
+<<<<<<< HEAD
     color: #df85e9; /* Màu đỏ nổi bật cho giá */
+=======
+    color: #e89df1; /* Màu đỏ nổi bật cho giá */
+>>>>>>> b62a77b4666c584064df036d1859949d898221fb
     font-weight: 600;
     margin: 0;
 }
