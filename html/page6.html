@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bố chồng chiếm hủ tôi</title>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>SẢN PHẨM ROSÉ</h1>
+    <div id="product-list" class="row"></div>
+  </div>
+  
+  <script src="../js/lib.js"></script>
+  <script>
+    productList.forEach(product => {
+      addProduct(product.id, product.name, product.price, product.image, product.productLink);
+    });
+  </script>
+</body>
+</html>
